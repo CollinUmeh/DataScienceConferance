@@ -1,0 +1,46 @@
+.DSRL-Logo{
+
+    height: 100px;
+    justify-items: left;
+    justify-content:left;
+    position: absolute;
+}
+
+.navbar{
+    display: flex;
+
+}
+
+Header{
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  justify-content: space-between;
+  margin-top: -10px;
+  color: aliceblue;
+  width: 100%;
+  padding: 10px 5px;
+  background-color: #233224;
+  margin: bottom 50px;
+}
+
+
+
+
+#SiteName{
+position: absolute;
+width: 129px;
+height: 70px;
+left: 168px;
+top: 30px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 170%;
+
+color: #fffefe;
+
+
+}
