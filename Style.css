@@ -40,6 +40,31 @@ header{
     margin-right: px;
 }
 
-#variables{
-color: #000000;
+
+.ConferanceLanding{
+
+    display: flex;
+    background-image: url(Images/PurpleSliding\ Background.png);
+    background: linear-gradient(to right,
+     #ffffff 50%,
+     #adb0c8,
+     #7079c1 );
+    padding: 100px;
+    text-align: center;
+    color: white; 
+    
+    
+    
+
+}
+
+#ConferanceTitle{
+    color: #000000;
+    font-size: 70px;
+    width:70%;
+    
+}
+#CustomDSLogo{
+
+
 }
