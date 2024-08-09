@@ -1,17 +1,14 @@
 .DSRL-Logo{
-
     height: 90px;
     border-radius: 5%;
     position: absolute;
     top: 3px;
-   
 }
 
 
 .navbar{
     display: flex;
     font-size: 25px;  
-
 }
 
 header{
@@ -22,7 +19,6 @@ header{
   width: 98.5%;
   padding: 10px 5px;
   background-color: rgb(255, 255, 255);
-  
 }
 
 #SiteName{
@@ -45,38 +41,27 @@ header{
 
     display: flex;
     background-image: url(Images/PurpleSliding\ Background.png);
-    background: linear-gradient(to right,
-     #ffffff 50%,
+    background: linear-gradient(to left,
+     #ffffff 40%,
      #adb0c8,
      #7079c1 );
     padding: 70px;
-    text-align: center;
     color: white; 
-    
-    
-    
-
+    text-align: right;
 }
 
 #ConferanceTitle{
-    color: #07003B;
+    color: #080041;
     font-weight: 00000;
     font-size: 60px;
     width:50%;
     text-shadow: 1.5px 1.5px #716c6c;
     font-family: 'Archivo';
-
 }
+
+
 #CustomDSLogo{
-
-    height: 0%;
-
-}
-
-#CustomDSLogo2{
-
-    height: 50%;
-    width: 20%;
+    
 }
 
 #LocationInfo{
@@ -85,4 +70,30 @@ header{
     font-size: 20px;
     width:50%;
     font-family: 'Archivo';
+}
+
+#InfoContainer{
+    text-align: center;
+    align-items: center;
+}
+
+#EventDetails{
+    display: flex;
+    font-size: 12px;
+    font-family: 'Archivo';
+    line-height: 300%;
+    padding-top: 150px;
+}
+
+#WomanOnComputer{
+    width: 40%;
+    height:40%;
+    padding:30px;
+    padding-right: 90px;
+    box-shadow: #000000;
+    border-color:#000000;
+}
+
+#Details{
+    padding-top: 40px;
 }
