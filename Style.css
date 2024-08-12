@@ -61,7 +61,8 @@ header{
 
 
 #CustomDSLogo{
-    
+
+
 }
 
 #LocationInfo{
@@ -83,17 +84,67 @@ header{
     font-family: 'Archivo';
     line-height: 300%;
     padding-top: 150px;
+
 }
 
 #WomanOnComputer{
     width: 40%;
     height:40%;
-    padding:30px;
-    padding-right: 90px;
-    box-shadow: #000000;
-    border-color:#000000;
+    border: 3px solid #7079c1 ;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
+    
 }
 
 #Details{
     padding-top: 40px;
+    padding-left:  90px;;
+}
+
+
+
+.MeetHosts{
+
+    
+
+}
+#cards {
+    display: flex;
+    flex-wrap: wrap; /* Allows the cards to wrap to the next line if necessary */
+    justify-content: center; /* Center the cards in the container */
+    gap: 20px; /* Adds space between the cards */
+    padding: 20px; /* Adds padding inside the container */
+}
+
+.card-container {
+    flex: 1 1 300px; /* Flex-grow, flex-shrink, and base width */
+    margin: 10px; /* Space around each card */
+    max-width: 300px; /* Ensure cards don’t get too wide */
+}
+
+.card {
+    width: 100%; /* Make the card take the full width of its container */
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    overflow: hidden; 
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+}
+
+.card-content {
+    padding: 16px;
+}
+
+.card-content h3 {
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+.card-content p {
+    font-size: 15px;
+    line-height: 1.3em;
 }
