@@ -50,7 +50,7 @@ header{
 }
 
 #ConferanceTitle{
-    color: #080041;
+    color: #07003B;
     font-weight: 900;
     font-size: 80px;
     width:80%;
@@ -69,8 +69,9 @@ header{
     color: #4b4a4e;
     font-weight: 00000;
     font-size: 20px;
-    width:50%;
+    width:80%;
     font-family: 'Archivo';
+    text-align: center;
 }
 
 #InfoContainer{
