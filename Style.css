@@ -40,25 +40,34 @@ header{
     color: #000000;
     
 }
-.Whole{
-  
-}
 
 body{
-    background-color: #ffffff;
+    background-image:url(Images/background-1.webp) ;
+    background-size: contain;
+
+    
+
+    image-resolution: 300dpi;
+    padding:0;
+    margin-top:30px;
 }
 
+
+
+
 .ConferanceLanding{
+    
 
     display: flex;
     background: linear-gradient(to left,
      #ffffff 40%,
-     #adb0c8,
+     #adb0c8 ,
      #7079c1 );
     padding: 70px;
     color: white; 
     margin-left: -7.8px;
-    width:91.55%
+    width:91.55%;
+    border: #000000;
 }
 
 .MeetHosts{
@@ -154,7 +163,7 @@ body{
     background-color: rgb(255, 255, 255);
     border-radius: 8px;
     overflow: hidden; 
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.335);
     height: 400px;
     font-family:'Archivo' ;
 }
@@ -193,7 +202,7 @@ body{
 }
 #DayTime{
 
-    color: #000000;
+    color: #0e0b0b;
     font-weight: 900;
     font-size: 50px;
     width:100%;
@@ -201,15 +210,11 @@ body{
     font-family: 'Archivo Black',sans-serif;
     line-height: 95%;
     text-align: center;
-    
-    
 }
 
-body{
-    padding:0;
-    margin-top:30px;
+
     
-}
+
 
 .slider-container{
     position:relative;
@@ -242,10 +247,10 @@ body{
     align-items:center;
     justify-content: center;
     color:#ffffff;
-    border-radius: 10%;
+    border-radius: 5%;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     text-shadow: 1.2px 1.2px #655a5a;
-    box-shadow:3px 3px 3px #000000;
+    box-shadow:1px 1px 1px #0000009a;
 }
 
 .btn{
@@ -321,7 +326,7 @@ body{
     border-radius: 10%;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     text-shadow: 1.2px 1.2px #655a5a;
-    box-shadow:3px 3px 3px #000000;
+    box-shadow:3px 3px 3px #0000009e;
 }
 
 
@@ -394,7 +399,9 @@ footer {
     padding: 10px 0;
     position: relative;
     bottom: 0;
-    width: 100%;
+    width: 101%;
+    margin-left: -7.8px;
+    padding-bottom: -10px;
 }
 
 .footer-content {
