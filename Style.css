@@ -71,7 +71,7 @@ body{
 }
 
 .MeetHosts{
-    padding-bottom: 300px;
+    padding-bottom: 100px;
 }
 
 
@@ -150,6 +150,30 @@ body{
 
 
 #HostingTitle{
+
+    text-align: center;
+    padding: 20px;
+    color: #000000;
+    font-weight: 900;
+    font-size: 60px;
+    width:95%;
+    text-shadow: 1.2px 1.2px #655a5a;
+    font-family: 'Archivo Black',sans-serif;
+    line-height: 95%;
+}
+#HostingTitle2{
+
+    text-align: center;
+    padding: 20px;
+    color: #000000;
+    font-weight: 900;
+    font-size: 60px;
+    width:95%;
+    text-shadow: 1.2px 1.2px #655a5a;
+    font-family: 'Archivo Black',sans-serif;
+    line-height: 95%;
+}
+#HostingTitle3{
 
     text-align: center;
     padding: 20px;
@@ -349,7 +373,8 @@ footer {
 
 .Sponsors{
     gap: 50px;
-    padding:50px;
+    padding-top: 20px;
+  
 }
 
 #MorganStateLogo{
