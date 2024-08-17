@@ -197,7 +197,7 @@ body{
 
 .card-container {
     flex: 1 1 300px; /* Flex-grow, flex-shrink, and base width */
-    margin: 10px; /* Space around each card */
+    margin: 30px; /* Space around each card */
     max-width: 300px; /* Ensure cards don’t get too wide */
 }
 
@@ -254,7 +254,7 @@ body{
 
 .card2 {
     width: 100%; /* Make the card take the full width of its container */
-    background-color: rgb(255, 255, 255);
+    background-color: #ffffff;
     border-radius: 8px;
     overflow: hidden; 
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.335);
@@ -371,36 +371,49 @@ footer {
     padding-top: 10px;
 }
 
-.Sponsors{
+.Sponsers{
     gap: 50px;
-    padding-top: 20px;
+    justify-content: space-between;
+    
   
 }
 
+.Sponsers img {
+    margin: 15px; /* Space around each image */
+}
+
 #MorganStateLogo{
-    padding:50px;
+    padding:20px;
     height:15%;
     width: 15%;
+    border-radius: 30%;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.335);
 }
 
 #SetonHallLogo{
 
     height:20%;
     width: 20%;
-    padding:50px;
+    padding:20px;
+    border-radius: 30%;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.335);
 }
 
 #DSRL-Logo{
     height:15%;
     width: 15%;
-    padding:50px;
+    padding:20px;
+    border-radius: 30%;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.335);
 
 }
 
 #MedStarLogo{
     height:30%;
     width: 28%;
-    padding-bottom: 50px;
-
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.335);
+    
 
 }
