@@ -1,3 +1,9 @@
+html{
+   scroll-behavior: smooth;
+   scrollbar-width:thin
+}
+
+
 .DSRL-Logo{
     height: 90px;
     border-radius: 5%;
