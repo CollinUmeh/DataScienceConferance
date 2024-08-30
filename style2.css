@@ -127,12 +127,11 @@ html{
  
  
  #CustomDSLogo{
-
     height: 20%;
     width:auto;
 
  
- 
+
  }
  
  #LocationInfo{
@@ -142,7 +141,7 @@ html{
      width:100%;
      font-family: 'Archivo';
      text-align: center;
-     padding-top: 50px;
+     padding:30px
  }
  
  #InfoContainer{
@@ -228,6 +227,7 @@ html{
     text-decoration: none;
     color: #ffffff;
     font-family: 'Archivo Black',sans-serif;
+    
 
 
 
@@ -359,14 +359,16 @@ html{
  
  
  footer {
-     background-color: #333;
-     color: #fff;
+     background-color: #00b1417c;
+     color: #000000;
      padding: 10px 0;
      position: relative;
      bottom: 0;
      width: 101%;
      margin-left: -7.8px;
      padding-bottom: -10px;
+     font-family: 'Archivo Black',sans-serif;
+
  }
  
  .footer-content {
@@ -389,7 +391,9 @@ html{
  .footer-section p, .footer-section ul, .footer-section a {
      font-size: 14px;
      line-height: 1.6;
-     color: #bbb;
+     color: #000000;
+    font-family: 'Archivo Black',sans-serif;
+
  }
  
  .footer-section ul {
@@ -403,12 +407,16 @@ html{
  
  .footer-section ul li a {
      text-decoration: none;
-     color: #bbb;
+     color: #000000;
      transition: color 0.3s;
+     font-family: 'Archivo Black',sans-serif;
+
  }
  
  .footer-section ul li a:hover {
-     color: #fff;
+     color: #000000;
+     font-family: 'Archivo Black',sans-serif;
+
  }
  
  .footer-bottom {
@@ -416,6 +424,11 @@ html{
      margin-top: 20px;
      border-top: 1px solid #555;
      padding-top: 10px;
+ }
+
+ .StudentNames{
+    display: flex;
+
  }
  
  .Sponsers{
@@ -514,6 +527,8 @@ html{
     font-size: 25px;
     width: 87%;
     margin-left: 35px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.335);
 
 
 
@@ -529,6 +544,9 @@ html{
     font-size: 25px;
     margin-left: 35px;;
     width: 87%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.335);
+
 
 
  }
@@ -541,6 +559,9 @@ html{
     font-size: 25px;
     margin-left: 35px;;
     width: 87%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.335);
+
 
  }
 
@@ -551,6 +572,9 @@ html{
     font-size: 25px;
     margin-left: 35px;;
     width: 87%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.335);
+
 
  }
 
@@ -562,6 +586,9 @@ html{
     font-size: 25px;
     margin-left: 35px;;
     width: 87%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.335);
+
 
  }
 
@@ -573,6 +600,9 @@ html{
     font-size: 25px;
     margin-left: 35px;;
     width: 87%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.335);
+
  }
 
  #Time7{
@@ -583,6 +613,9 @@ html{
     font-size: 25px;
     margin-left: 35px;;
     width: 87%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.335);
+
     
 
  }
@@ -595,6 +628,9 @@ html{
     font-size: 25px;
     margin-left: 35px;;
     width: 87%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.335);
+
 
  }
 
@@ -606,6 +642,9 @@ html{
     font-size: 25px;
     margin-left: 35px;;
     width: 87%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.335);
+
 
 
  }
@@ -618,5 +657,8 @@ html{
     font-size: 40px;
     margin-left: 35px;;
     width: 100%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.335);
+
 
  }
