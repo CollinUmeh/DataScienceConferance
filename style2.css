@@ -428,9 +428,16 @@ html{
 
  .StudentNames{
     display: flex;
-
+    justify-content: space-between;
+    gap: 10px;
  }
  
+#StudentTitle{
+    align-items: center;
+    text-align: center;
+}
+
+
  .Sponsers{
      gap: 50px;
      justify-content: space-between;
@@ -448,6 +455,10 @@ html{
      width: 15%;
      border-radius: 30%;
      box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.335);
+ }
+
+ #IndividualNames2{
+    margin-left: -10px;
  }
  
  #SetonHallLogo{
@@ -502,6 +513,15 @@ html{
     width:90%;
     text-shadow: 1.2px 1.2px #655a5a;
     line-height: 95%;
+    text-align: center;
+     padding: 20px;
+     color: #000000;
+     font-weight: 900;
+     font-size: 60px;
+     width:95%;
+     text-shadow: 1.2px 1.2px #655a5a;
+     font-family: 'Archivo Black',sans-serif;
+     line-height: 95%;
     
 
 }
